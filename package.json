@@ -1,0 +1,24 @@
+{
+  "name": "node-js-playlist",
+  "version": "1.0.0",
+  "description": "a little test app",
+  "main": "app.js",
+  "dependencies": {
+    "body": "^5.1.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "parser": "^0.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "funny",
+    "app",
+    "for",
+    "Ninjas"
+  ],
+  "author": "Rabbani",
+  "license": "ISC"
+}

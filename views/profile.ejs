@@ -1,0 +1,10 @@
+  <% include partials/nav.ejs %>
+  <h1>This Is Profile Of <%= person %> </h1>
+  <p><strong>Job: </strong><%= data.job %></p>
+  <p><strong>Age: </strong><%= data.age %></p>
+
+  <ul>
+    <% data.hobby.forEach(function(item){ %>
+      <li> <%= item %></li>
+    <%});%>
+  </ul>

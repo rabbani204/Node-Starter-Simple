@@ -1,0 +1,11 @@
+
+  <% include partials/nav.ejs %>
+  <form id="contact-form" method="post" action="/contact">
+      <label for="Who"> Who Do You Want To Contact?</label></br>
+      <input type="text" name = "who" value="<%= qs.person %>"></input></br>
+      <label for="Who"> Which Dept?</label></br>
+      <input type="text" name = "depeartment" value="<%= qs.dept %>">></input></br>
+      <label for="email"> What,s Your Email?</label></br>
+      <input type="email" name = "email" value="<%= qs.email %>"></input></br>
+      <input type="submit" value="submit" />
+  </form>

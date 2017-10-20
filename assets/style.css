@@ -1,0 +1,18 @@
+
+body{
+      margin: 0px;
+      padding: 0px;
+      background-color: skyblue;
+      text-align: center;
+ }
+ h1{
+   font-size: 35px;
+   font-family: sans-serif;
+   color: black;
+ }
+
+ p{
+   font-family: inherit;
+   font-size: 18px;
+   color: black;
+}
