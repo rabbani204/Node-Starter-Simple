@@ -32,4 +32,4 @@ app.get('/profile/:name', function(req, res){
   }
   res.render('profile', {person: req.params.name, data: data});
 });
-app.listen(3000);
+app.listen(process.env.PORT || 5000);
